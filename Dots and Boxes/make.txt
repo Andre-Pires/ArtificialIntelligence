@@ -1,0 +1,5 @@
+(load (compile-file "Proj.lisp"))
+(load "teste")
+(defun test ()
+(time (jogador-minimax-vbest j1 1 10))
+)
